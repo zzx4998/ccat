@@ -1,4 +1,4 @@
-FROM docker:19.03.1
+FROM docker:19.03.10
 
 RUN apk update && apk add build-base python3 python3-dev && rm -rf /var/cache/apk/*
 
